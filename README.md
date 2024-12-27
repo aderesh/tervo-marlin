@@ -1,3 +1,8 @@
+# My fork of Marlin v 2.1.x
+1. Download configuration for the same version  - https://github.com/MarlinFirmware/Configurations
+1. 
+
+# Marlin
 <p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
 
 <h1 align="center">Marlin 3D Printer Firmware</h1>
