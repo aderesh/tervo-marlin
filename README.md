@@ -1,6 +1,11 @@
 # My fork of Marlin v 2.1.x
-1. Download configuration for the same version  - https://github.com/MarlinFirmware/Configurations
-1. 
+1. Download configuration for the same version  - https://github.com/MarlinFirmware/Configurations - and copy/replace Marlin/* folder
+1. Remove the following errors from the Marlin/Configuration.h. (Make sure you follow the comments and it's not an import branch:
+```
+#error "Don't build with import-2.1.x configurations!"
+#error "Use the 'bugfix...' or 'release...' configurations matching your Marlin version."
+```
+1.
 
 # Marlin
 <p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
