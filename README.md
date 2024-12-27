@@ -5,7 +5,9 @@
 #error "Don't build with import-2.1.x configurations!"
 #error "Use the 'bugfix...' or 'release...' configurations matching your Marlin version."
 ```
-1.
+1. Build in Auto Build Marlin
+1. Install CH340 drivers
+1. Upload in Auto Build Marlin
 
 # Marlin
 <p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
