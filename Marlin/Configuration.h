@@ -1294,7 +1294,8 @@
  * Override with M92 (when enabled below)
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 400 }
+// AD set default STEP for DEFAULT TEVO extruder. Manual: https://ellis3dp.com/Print-Tuning-Guide/articles/extruder_calibration.html
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 434 }
 
 /**
  * Enable support for M92. Disable to save at least ~530 bytes of flash.
