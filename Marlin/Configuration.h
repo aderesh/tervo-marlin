@@ -137,7 +137,7 @@
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
-//#define MACHINE_UUID "00000000-0000-0000-0000-000000000000"
+#define MACHINE_UUID "a2c5f9e3-9418-4e0e-b187-bfbdaf235c6b"
 
 // @section stepper drivers
 
@@ -1641,7 +1641,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -40, -20, 1.25 }
+#define NOZZLE_TO_PROBE_OFFSET { -46, -11, -0.45 }
 
 // Enable and set to use a specific tool for probing. Disable to allow any tool.
 #define PROBING_TOOL 0
@@ -1743,7 +1743,7 @@
 //#define PROBE_OFFSET_ZMAX  20   // (mm)
 
 // Enable the M48 repeatability test to test probe accuracy
-//#define Z_MIN_PROBE_REPEATABILITY_TEST
+#define Z_MIN_PROBE_REPEATABILITY_TEST
 
 // Before deploy/stow pause for user confirmation
 //#define PAUSE_BEFORE_DEPLOY_STOW
@@ -1885,16 +1885,16 @@
 // @section geometry
 
 // The size of the printable area
-#define X_BED_SIZE 310
-#define Y_BED_SIZE 300
+#define X_BED_SIZE 290
+#define Y_BED_SIZE 290
 
 // Travel limits (linear=mm, rotational=°) after homing, corresponding to endstop positions.
-#define X_MIN_POS 0
-#define Y_MIN_POS 0
+#define X_MIN_POS -3
+#define Y_MIN_POS -4
 #define Z_MIN_POS 0
-#define X_MAX_POS X_BED_SIZE
-#define Y_MAX_POS Y_BED_SIZE
-#define Z_MAX_POS 400
+#define X_MAX_POS ( X_BED_SIZE + 16 )
+#define Y_MAX_POS ( Y_BED_SIZE + 6 )
+#define Z_MAX_POS 240 // because of filament spool
 //#define I_MIN_POS 0
 //#define I_MAX_POS 50
 //#define J_MIN_POS 0
