@@ -1295,7 +1295,9 @@
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
 // AD set default STEP for DEFAULT TEVO extruder. Manual: https://ellis3dp.com/Print-Tuning-Guide/articles/extruder_calibration.html
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 434 }
+// #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 434 } //was good for PLA
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 425.52 } //good for PETG
+
 
 /**
  * Enable support for M92. Disable to save at least ~530 bytes of flash.
